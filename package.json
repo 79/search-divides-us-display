@@ -1,0 +1,21 @@
+{
+  "name": "search-divides-us",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "p5": "^0.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"public/*.js\""
+  },
+  "author": "",
+  "license": "ISC"
+}
